@@ -1,2 +1,2 @@
 # GumTreeScraper
-Scrapes specified GumTree URL and returns all listings with their prices for comparison
+Scrapes specified GumTree URL and returns all listings in a CSV file with their prices for comparison
