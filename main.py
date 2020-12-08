@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+#Last page number
 end_page_num = 25
 i = 2
 
@@ -8,6 +9,7 @@ names = []
 prices = []
 urls = []
 
+#Opening of csv file
 filename = "ps4.csv"
 f = open(filename, "w")
 
