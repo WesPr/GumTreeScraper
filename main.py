@@ -68,11 +68,13 @@ while i <= end_page_num:
                         prices.append(price)
                         urls.append(url)
     i += 1
-
+    
+#printing to file
 list_size = len(prices)
 x = 0
 while x < list_size:
     f.write(names[x].replace(",", "|") + "," + str(prices[x]).replace(",", "") + "," + "https://www.gumtree.co.za/"+urls[x].replace(",", "") + "\n")
     x +=1
 
+#OClosing of csv file
 f.close()
