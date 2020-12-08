@@ -69,7 +69,7 @@ while i <= end_page_num:
                         urls.append(url)
     i += 1
     
-#printing to file
+#Printing to file
 list_size = len(prices)
 x = 0
 while x < list_size:
